@@ -1,0 +1,36 @@
+--- OLS Moderation Results ---
+Model: General_Grumbling ~ SC_C + WO_C + Interaction
+
+                            OLS Regression Results                            
+==============================================================================
+Dep. Variable:      General_Grumbling   R-squared:                       0.195
+Model:                            OLS   Adj. R-squared:                  0.184
+Method:                 Least Squares   F-statistic:                     16.84
+Date:                Mon, 27 Oct 2025   Prob (F-statistic):           7.83e-10
+Time:                        18:31:21   Log-Likelihood:                -253.82
+No. Observations:                 212   AIC:                             515.6
+Df Residuals:                     208   BIC:                             529.1
+Df Model:                           3                                         
+Covariance Type:            nonrobust                                         
+===============================================================================
+                  coef    std err          t      P>|t|      [0.025      0.975]
+-------------------------------------------------------------------------------
+Intercept       3.3307      0.058     57.019      0.000       3.216       3.446
+SC_C            0.2200      0.075      2.932      0.004       0.072       0.368
+WO_C            0.3233      0.078      4.157      0.000       0.170       0.477
+Interaction    -0.0612      0.062     -0.988      0.324      -0.183       0.061
+==============================================================================
+Omnibus:                        1.298   Durbin-Watson:                   1.850
+Prob(Omnibus):                  0.522   Jarque-Bera (JB):                1.386
+Skew:                          -0.177   Prob(JB):                        0.500
+Kurtosis:                       2.824   Cond. No.                         1.90
+==============================================================================
+
+Notes:
+[1] Standard Errors assume that the covariance matrix of the errors is correctly specified.
+
+--- Variance Inflation Factor (VIF) ---
+   Variable      VIF
+       SC_C 1.286289
+       WO_C 1.239828
+Interaction 1.073118
