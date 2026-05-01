@@ -42,6 +42,12 @@ The research identifies several critical factors influencing the level of compla
 
 ---
 
+
+<img width="4519" height="3000" alt="SEM_Grumbling_Diagram" src="https://github.com/user-attachments/assets/1cf2e71d-5fee-4bd5-b52f-7661902c2b98" />
+
+
+---
+
 ## Critical Analysis
 
 The findings suggest that *mental friction*, or **Switching Cost**, between STEM and non-STEM contexts is a central source of dissatisfaction. This cost indirectly increases grumbling by:
